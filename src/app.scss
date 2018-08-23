@@ -1,0 +1,12 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: red;
+$position: center;
+$font-size: 400px;
+
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    text-align: $position;
+    font-size: $font-size;
+}
