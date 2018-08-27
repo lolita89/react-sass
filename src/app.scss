@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: 'Monoton', cursive;
 $primary-color: red;
 $counter-color: green;
 $position: center;
@@ -6,7 +6,7 @@ $position: center;
 $font-size: 100px;
 $counter-size: 50px;
 
-$button-background-color: yellow;
+$button-background-color: rgb(141, 172, 93);
 $button-font-color: black;
 
 body {
@@ -14,6 +14,7 @@ body {
     color: $primary-color;
     text-align: $position;
     font-size: $font-size;
+    background-color: $button-background-color;
 }
 
 p {
@@ -25,4 +26,15 @@ button {
     background-color: $button-background-color;
     color: $button-font-color;
     font-size: $counter-size;
+    margin: 20px;
+    border: 20px ridge;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightgrey;
+    // width: 1000px;
+    border: 25px solid $primary-color;
+    padding: 25px;
+    margin: 25px;
 }

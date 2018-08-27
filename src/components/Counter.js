@@ -33,7 +33,7 @@ class Counter extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="box">
                 <button onClick={this.increment}>increment!</button>
                 <button onClick={this.decrement}>decrement!</button>
                 <button onClick={this.reset}>reset!</button>
