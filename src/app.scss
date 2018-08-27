@@ -1,12 +1,28 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: red;
+$counter-color: green;
 $position: center;
-$font-size: 400px;
 
+$font-size: 100px;
+$counter-size: 50px;
+
+$button-background-color: yellow;
+$button-font-color: black;
 
 body {
     font: 100% $font-stack;
     color: $primary-color;
     text-align: $position;
     font-size: $font-size;
+}
+
+p {
+    color: $counter-color;
+    font-size: $counter-size;
+}
+
+button {
+    background-color: $button-background-color;
+    color: $button-font-color;
+    font-size: $counter-size;
 }
